@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lite": "lite-server",
-    "postinstall": "ng build --prod"
+    "postinstall": "ng build --base-href=https://mighty-lowlands-49732.herokuapp.com/"
   },
   "engines": {
     "node": "14.21.1",
