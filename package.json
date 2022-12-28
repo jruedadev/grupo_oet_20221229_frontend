@@ -4,12 +4,12 @@
   "scripts": {
     "ng": "ng",
     "start": "node server.js",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "lite": "lite-server",
-    "postinstall": "ng build --base-href=https://mighty-lowlands-49732.herokuapp.com/"
+    "postinstall": "ng build --prod --base-href=https://mighty-lowlands-49732.herokuapp.com/"
   },
   "engines": {
     "node": "14.21.1",
