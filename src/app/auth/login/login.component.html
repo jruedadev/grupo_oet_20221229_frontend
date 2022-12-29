@@ -1,1 +1,35 @@
-<p>login works!</p>
+<div class="container">
+    <div class="row">
+        <div class="card col-6 mx-auto">
+            <div class="card-header">
+                Iniciar sesión
+            </div>
+            <div class="card-body">
+                <form #f="ngForm" (ngSubmit)="authenticate()">
+                    <!-- Email input -->
+                    <div class="form-outline mb-4">
+                        <input type="email" id="form2Example1" class="form-control" [(ngModel)]="username"
+                            name="username" />
+                        <label class="form-label" for="form2Example1">Email address</label>
+                    </div>
+
+                    <!-- Password input -->
+                    <div class="form-outline mb-4">
+                        <input type="password" id="password" class="form-control" [(ngModel)]="password"
+                            name="password" />
+                        <label class="form-label" for="password">Password</label>
+                    </div>
+
+                    <!-- Submit button -->
+                    <button type="submit" class="btn btn-primary btn-block mb-4">Sign
+                        in</button>
+
+                    <!-- Register buttons -->
+                    <div class="text-center">
+                        <p>Not a member? <a [routerLink]="['/register']">Register</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

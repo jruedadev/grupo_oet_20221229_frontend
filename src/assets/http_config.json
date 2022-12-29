@@ -1,0 +1,98 @@
+{
+    "auth": {
+        "login": {
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/login",
+            "method": "POST",
+            "data": {
+                "username": "",
+                "password": ""
+            }
+        },
+        "user": {
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/user",
+            "method": "GET",
+            "data": {}
+        }
+    },
+    "vehicles": {
+        "get_vehicles": {
+            "method": "GET",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/vehicles",
+            "data": {}
+        },
+        "get_vehicle_by_id": {
+            "method": "GET",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/vehicles",
+            "data": {}
+        },
+        "set_vehicle": {
+            "method": "POST",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/vehicles",
+            "data": {}
+        },
+        "update_vehicle": {
+            "method": "PUT",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/vehicles",
+            "data": {}
+        },
+        "delete_vehicle": {
+            "method": "DELETE",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/vehicles",
+            "data": {}
+        }
+    },
+    "owners": {
+        "get_owners": {
+            "method": "GET",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/owners",
+            "data": {}
+        },
+        "get_owner_by_id": {
+            "method": "GET",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/owners",
+            "data": {}
+        },
+        "set_owner": {
+            "method": "POST",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/owners",
+            "data": {}
+        },
+        "update_owner": {
+            "method": "PUT",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/owners",
+            "data": {}
+        },
+        "delete_owner": {
+            "method": "DELETE",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/owners",
+            "data": {}
+        }
+    },
+    "drivers": {
+        "get_drivers": {
+            "method": "GET",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/drivers",
+            "data": {}
+        },
+        "get_driver_by_id": {
+            "method": "GET",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/drivers",
+            "data": {}
+        },
+        "set_driver": {
+            "method": "POST",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/drivers",
+            "data": {}
+        },
+        "update_driver": {
+            "method": "PUT",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/drivers",
+            "data": {}
+        },
+        "delete_driver": {
+            "method": "DELETE",
+            "url": "https://fathomless-retreat-17773.herokuapp.com/api/drivers",
+            "data": {}
+        }
+    }
+}

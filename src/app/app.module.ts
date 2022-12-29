@@ -9,6 +9,9 @@ import { VehiclesComponent } from './app/vehicles/vehicles.component';
 import { OwnersComponent } from './app/owners/owners.component';
 import { DriversComponent } from './app/drivers/drivers.component';
 import { ReportsComponent } from './app/reports/reports.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FormsModule } from '@angular/forms';
+import { AgGridModule } from 'ag-grid-angular';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { ReportsComponent } from './app/reports/reports.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule,
+    FormsModule,
+    AgGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
